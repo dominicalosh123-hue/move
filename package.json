@@ -1,0 +1,24 @@
+{
+  "name": "movie-watchlist-manager",
+  "version": "1.0.0",
+  "description": "Full MERN Stack Movie Watchlist Manager",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "install:all": "npm --prefix server install && npm --prefix client install"
+  },
+  "keywords": [
+    "mern",
+    "mongodb-atlas",
+    "express",
+    "react",
+    "nodejs",
+    "movie-watchlist"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^10.0.6"
+  }
+}

@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+server/node_modules/
+client/node_modules/
+
+# Production build
+client/dist/
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Note: .env is intentionally NOT ignored as per evaluation requirements:
+# "The .env file is included."
+!.env
+!server/.env
